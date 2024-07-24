@@ -1,0 +1,7 @@
+<div class="payment-methods">
+  <h3>Your payment methods</h3>
+  <div *ngFor="let method of paymentMethods">
+    <app-payment-method [logo]="method.logo" [last4]="method.last4"></app-payment-method>
+  </div>
+  <button class="btn btn-orange">ADD NEW PAYMENT</button>
+</div>

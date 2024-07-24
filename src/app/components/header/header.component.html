@@ -1,0 +1,22 @@
+<header class="header">
+  <nav class="navbar">
+    <ul class="navbar-menu">
+      <li *ngFor="let item of navItems">
+        <a [href]="item.link">
+          <img [src]="item.icon" alt="{{ item.name }} icon" class="nav-icon">
+          {{ item.name }}
+        </a>
+      </li>
+    </ul>
+
+    <div class="right-part">
+      <app-language-selector
+        [languages]="languageList"
+        [selectedLanguageCode]="currentLanguage">
+      </app-language-selector>
+      <div class="separator"></div>
+      <app-user-profile src="assets/images/users/icons/people.png"/>
+    </div>
+
+  </nav>
+</header>

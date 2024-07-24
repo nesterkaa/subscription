@@ -1,0 +1,38 @@
+.payment-method {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #E0E0E1;
+  width: 317px;
+  height: 56px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0 20px 0 10px;
+}
+
+.card-logo {
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
+}
+
+
+.btn-delete {
+  color: #F04438;
+  width: 53px;
+  height: 20px;
+  font-size: 14px;
+}
+
+.card-info {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.card-number{
+  font-size: 16px;
+  font-weight: 600;
+}

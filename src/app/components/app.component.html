@@ -1,0 +1,11 @@
+<app-header></app-header>
+<div class="container">
+  <app-subscription
+    [subscriptionAmount]="'$10'"
+    [nextChargeDate]="'10 May 2025'"
+    [statusText]="'Active'"
+    [statusType]="'green'">
+  </app-subscription>
+  <app-payment-methods></app-payment-methods>
+  <app-transaction-history></app-transaction-history>
+</div>

@@ -1,0 +1,21 @@
+<div class="transaction-history">
+  <h3>Transaction history</h3>
+  <table>
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>Summa</th>
+      <th>Date</th>
+      <th>Comment</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let transaction of transactions">
+      <td>{{ transaction.id }}</td>
+      <td>{{ transaction.sum }}</td>
+      <td>{{ transaction.date }}</td>
+      <td class="text-left">{{ transaction.comment }}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

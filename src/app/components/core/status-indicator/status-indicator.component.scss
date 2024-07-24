@@ -1,0 +1,24 @@
+.status {
+  border-radius: 4px;
+  padding: 6px 8px;
+  font-size: 14px;
+  color: #fff;
+
+  &.green {
+    background-color: #E8F7F0;
+    border: 1px solid #95DCBB;
+    color: #127E4C;
+  }
+
+  &.red {
+    background-color: #eab8b5;
+    border: 1px solid #f38a84;
+    color: #b31010;
+  }
+
+  &.yellow {
+    background-color: #cdc48d;
+    border: 1px solid #ffeb3b;
+    color: #000;
+  }
+}

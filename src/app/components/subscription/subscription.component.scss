@@ -1,0 +1,32 @@
+.subscription {
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.subscription h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+.subscription .amount {
+  color: #FF8A00;
+}
+
+.subscription .charge-date {
+  font-weight: 600;
+  color: #6B3A00;
+}
+.subscription p {
+  font-size: 22px;
+}
+
+.subscription app-status-indicator {
+  margin-left: 10px;
+  position: relative;
+  top: -10px;
+}
+.charge-date-p{
+  margin: 15px 0;
+}
